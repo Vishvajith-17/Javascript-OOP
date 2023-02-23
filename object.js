@@ -1,4 +1,4 @@
-console.log("Object");
+console.log("---Object---");
 //object define with literals
 const circle = {
     radius : 4,
@@ -31,7 +31,7 @@ newCircle.draw();
 function Circle(radius){
     this.radius = radius;
     this.draw = function(){
-        console.log("draw circle " + radius + " wuth constructor function");
+        console.log("draw circle " + radius + " with constructor function");
     }
 };
 
